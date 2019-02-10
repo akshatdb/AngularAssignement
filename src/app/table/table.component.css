@@ -1,0 +1,21 @@
+table{
+    width:100%;
+}
+th{
+    background:black;
+    color:white;
+}
+.flright{
+    float:right;
+}
+.textarrow{
+    padding-right:10px;
+    font-size:12px;
+    font-family:Roboto,"Helvetica Neue",sans-serif;
+}
+.arrow{
+    background:black;
+    color:white;
+    padding:0 5px;
+    margin-top:2px;
+}

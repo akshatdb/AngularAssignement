@@ -3,3 +3,14 @@
 .fill-span{
     flex:1 1 auto;
 }
+.mat-toolbar.mat-primary{
+    background:black;
+}
+.button-td > .mat-flat-button{
+    background: black;
+    color:white;
+    margin: 0 5px;
+}
+td.mat-cell:first-of-type, td.mat-footer-cell:first-of-type, th.mat-header-cell:first-of-type{
+    padding-top:0px;
+}

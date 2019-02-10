@@ -1,10 +1,10 @@
 <mat-toolbar color="primary">
-  <span>Application Title</span>
+  <span>Manual RFX</span>
   <span class="fill-span"></span>
-  <span>Right Aligned Text</span>
+  <span>RFX Number: REQXXXXXXX</span>
 </mat-toolbar>
-<mat-grid-list cols="4" rowHeight="2:1">
-  <mat-grid-tile [colspan]="1" [rowspan]="1">what</mat-grid-tile>
-  <mat-grid-tile [colspan]="3" [rowspan]="1">whatis</mat-grid-tile>
+<mat-grid-list cols="4" rowHeight="4:3">
+  <mat-grid-tile [colspan]="1" [rowspan]="1"><app-datecomp></app-datecomp></mat-grid-tile>
+  <mat-grid-tile [colspan]="3" [rowspan]="1"><app-table></app-table></mat-grid-tile>
   <mat-grid-tile [colspan]="4" [rowspan]="1">this</mat-grid-tile>
 </mat-grid-list>
