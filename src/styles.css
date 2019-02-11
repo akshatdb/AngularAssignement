@@ -1,10 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 .fill-span{
-    flex:1 1 auto;
+    float: right;
 }
 .mat-toolbar.mat-primary{
-    background:black;
+    background:#4a4646;
 }
 .button-td > .mat-flat-button{
     background: black;

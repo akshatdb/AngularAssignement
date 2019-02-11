@@ -1,0 +1,30 @@
+table{
+    width:100%;
+}
+
+input{
+    padding:10px;
+    border:1px solid black;
+    width:30%;
+}
+.td-label{
+    font-size:20px;
+    font-weight: bold;
+    padding: 23px 0;
+}
+
+#add-icon{
+    font-size: 33px;
+    vertical-align: middle;
+    margin-top: -11px;
+}
+.mat-stroked-button{
+    border-color:black;
+    margin-left: 15px;
+    background:#dcd9d9;
+    font-weight:bold;
+}
+#rfx-btn, #submit-btn{
+    color:blue;
+    text-decoration: underline;
+}
